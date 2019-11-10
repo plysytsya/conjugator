@@ -13,7 +13,7 @@ The following types are supported:
     "Perfect",
     "Perfect Subjunctive"
 
-The conjugate-methods returns a pandas DataFrame object.
+The conjugate-method returns a pandas DataFrame object.
 
 
 Description
