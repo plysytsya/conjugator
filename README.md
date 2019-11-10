@@ -7,16 +7,7 @@
 
 
 A conjugator for spanish verbs. You have to provide a spanish verb and the type of the desired conjugation.
-The following types are supported:
 
-        'Indicative',
-        'Subjunctive',
-        'Imperative',
-        'Continuous (Progressive)',
-        'Perfect',
-        'Perfect Subjunctive'
-
-The conjugate-method returns a pandas DataFrame object.
 
 
 ## Description
@@ -36,6 +27,33 @@ Example usage:
     3          nosotros  buscamos    buscamos  buscábamos  buscaríamos  buscaremos
     4          vosotros   buscáis  buscasteis   buscabais   buscaríais   buscaréis
     5  ellos/ellas/Uds.    buscan    buscaron    buscaban    buscarían    buscarán
+
+
+The following types are supported:
+
+        'Indicative',
+        'Subjunctive',
+        'Imperative',
+        'Continuous (Progressive)',
+        'Perfect',
+        'Perfect Subjunctive'
+
+The conjugate-method returns a pandas DataFrame object.
+
+Example:
+
+    >>> df = conjugate("bailar", "Subjunctive")
+    >>> df[["Person", "Present"]]
+                 Person   Present
+    0                yo     baile
+    1                tú    bailes
+    2       él/ella/Ud.     baile
+    3          nosotros  bailemos
+    4          vosotros   bailéis
+    5  ellos/ellas/Uds.    bailen
+
+
+For further reference read: https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
 
 
 
