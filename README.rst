@@ -1,4 +1,4 @@
-https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg
+![GitHub Actions status | sdras/awesome-actions](https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg)
 
 ============
 Conjugator
