@@ -6,12 +6,12 @@ onjugator
 A conjugator for spanish verbs. You have to provide a Spanish verb and the type of the desired conjugation.
 The following types are supported:
 
-    "Indicative",
-    "Subjunctive",
-    "Imperative",
-    "Continuous (Progressive)",
-    "Perfect",
-    "Perfect Subjunctive"
+        'Indicative',
+        'Subjunctive',
+        'Imperative',
+        'Continuous (Progressive)',
+        'Perfect',
+        'Perfect Subjunctive'
 
 The conjugate-method returns a pandas DataFrame object.
 
@@ -21,7 +21,7 @@ Description
 
 Installation:
 
-	pip install conjugator
+        pip install conjugator
 
 Example usage:
 
