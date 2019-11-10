@@ -1,6 +1,6 @@
 ![GitHub Actions status | sdras/awesome-actions](https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg)
 https://codecov.io/gh/plysytsya/conjugator/branch/master/graph/badge.svg
-[![codecov](https://codecov.io/gh/plysytsya/conjugator/branch/master/graph/badge.svg)](https://codecov.io/gh/plysytsya/conjugator/branch/master/graph/badge.svg)
+[![codecov](https://codecov.io/gh/plysytsya/conjugator/branch/master/graph/badge.svg)]
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/plysytsya/conjugator)
 
 
