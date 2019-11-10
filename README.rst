@@ -1,15 +1,40 @@
-==========
-conjugator
-==========
+============
+onjugator
+============
 
 
-Add a short description here!
+A conjugator for spanish verbs. You have to provide a Spanish verb and the type of the desired conjugation.
+The following types are supported:
+
+    "Indicative",
+    "Subjunctive",
+    "Imperative",
+    "Continuous (Progressive)",
+    "Perfect",
+    "Perfect Subjunctive"
+
+The conjugate-methods returns a pandas DataFrame object.
 
 
 Description
 ===========
 
-A longer description of your project goes here...
+Installation:
+
+	pip install esconjugator
+
+Example usage:
+
+    >>> from conjugator.spanish import conjugate
+    >>> conjugate("buscar", "Indicative")
+                 Person   Present   Preterite   Imperfect  Conditional      Future
+    0                yo     busco      busqué     buscaba     buscaría     buscaré
+    1                tú    buscas    buscaste    buscabas    buscarías    buscarás
+    2       él/ella/Ud.     busca       buscó     buscaba     buscaría     buscará
+    3          nosotros  buscamos    buscamos  buscábamos  buscaríamos  buscaremos
+    4          vosotros   buscáis  buscasteis   buscabais   buscaríais   buscaréis
+    5  ellos/ellas/Uds.    buscan    buscaron    buscaban    buscarían    buscarán
+
 
 
 Note
