@@ -19,3 +19,4 @@
 beautifulsoup4
 pandas==0.25.3
 pytest-xdist==1.30.0
+requests==2.22.0
