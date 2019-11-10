@@ -1,3 +1,5 @@
+https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg
+
 ============
 Conjugator
 ============
