@@ -15,8 +15,6 @@ also be used as template for Python modules.
 Note: This skeleton file can be safely removed if not needed!
 """
 
-import argparse
-import sys
 import logging
 import requests
 
@@ -86,7 +84,7 @@ class Conjugator:
         return data
 
     def make_dataframe(self, conjugations):
-        header = ["person"] + conjugations[0]
+        header = ["Person"] + conjugations[0]
         body = conjugations[1:]
         df = pd.DataFrame(body)
         df.columns = header
