@@ -1,7 +1,7 @@
 ![GitHub Actions status | sdras/awesome-actions](https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg)
 
 
-# Conjugator [![Awesome]
+# Conjugator
 
 
 A conjugator for spanish verbs. You have to provide a Spanish verb and the type of the desired conjugation.
@@ -17,8 +17,7 @@ The following types are supported:
 The conjugate-method returns a pandas DataFrame object.
 
 
-Description
-===========
+## Description
 
 Installation:
 
@@ -38,8 +37,7 @@ Example usage:
 
 
 
-Note
-====
+## Note
 
 This project has been set up using PyScaffold 3.2.3. For details and usage
 information on PyScaffold see https://pyscaffold.org/.
