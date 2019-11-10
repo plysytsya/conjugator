@@ -21,7 +21,7 @@ Description
 
 Installation:
 
-	pip install esconjugator
+	pip install conjugator
 
 Example usage:
 
