@@ -1,4 +1,5 @@
 ![GitHub Actions status | sdras/awesome-actions](https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/plysytsya/conjugator)
 
 
 # Conjugator
