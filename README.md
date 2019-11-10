@@ -1,8 +1,7 @@
 ![GitHub Actions status | sdras/awesome-actions](https://github.com/plysytsya/conjugator/workflows/runtests/badge.svg)
 
-============
-Conjugator
-============
+
+# Conjugator [![Awesome]
 
 
 A conjugator for spanish verbs. You have to provide a Spanish verb and the type of the desired conjugation.
