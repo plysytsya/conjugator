@@ -6,7 +6,7 @@
 # Conjugator
 
 
-A conjugator for spanish verbs. You have to provide a Spanish verb and the type of the desired conjugation.
+A conjugator for spanish verbs. You have to provide a spanish verb and the type of the desired conjugation.
 The following types are supported:
 
         'Indicative',
