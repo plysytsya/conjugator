@@ -21,7 +21,6 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from esconjugator import __version__
 
 __author__ = "Pavlo Lysytsya"
 __copyright__ = "Pavlo Lysytsya"
