@@ -14,7 +14,7 @@ A conjugator for spanish verbs. You have to provide a spanish verb and the type 
 
 Installation:
 
-        pip install conjugator
+    pip install conjugator
 
 Example usage:
 
@@ -31,12 +31,12 @@ Example usage:
 
 The following types are supported:
 
-        'Indicative',
-        'Subjunctive',
-        'Imperative',
-        'Continuous (Progressive)',
-        'Perfect',
-        'Perfect Subjunctive'
+    'Indicative',
+    'Subjunctive',
+    'Imperative',
+    'Continuous (Progressive)',
+    'Perfect',
+    'Perfect Subjunctive'
 
 The conjugate-method returns a pandas DataFrame object.
 
