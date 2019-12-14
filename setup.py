@@ -21,5 +21,6 @@ except VersionConflict:
 
 if __name__ == "__main__":
     setup(
+        setup_requires=["pandas~=0.25.3", "beautifulsoup4~=4.8.1"],
         use_pyscaffold=True,
     )
