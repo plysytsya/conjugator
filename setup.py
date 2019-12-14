@@ -22,5 +22,4 @@ except VersionConflict:
 if __name__ == "__main__":
     setup(
         use_pyscaffold=True,
-        install_requires=["requests", "beautifulsoup4", "pandas", "pytest-xdist"],
     )
